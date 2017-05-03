@@ -34,6 +34,19 @@ header{
   }
   .header-2{
     .row;
+    .header-title{
+      background-color: orange;
+
+      .make-md-column(48);
+      .make-lg-column(48);
+
+      @media (min-width: 1024px) {
+        height: 150px;
+      }
+      @media (min-width: 1366px) {
+        height: 200px;
+      }
+    }
   }
 
 }

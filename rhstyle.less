@@ -58,6 +58,21 @@ header{
           height: 200px;
           max-width: 269px;
         }
+
+        .big-x{
+          @media (min-width: 1024px) {
+            position: relative;
+            bottom: 18px;
+          }
+        }
+        .little-x{
+          font-size: 12px;
+          position:relative;
+          top: 6px;
+          @media (min-width: 1024px) {
+            font-size: 30px;
+          }
+        }
       }
     }
 
@@ -241,6 +256,14 @@ header{
             @media (min-width: 1024px) {
               position: relative;
               bottom: 18px;
+            }
+          }
+          .little-x{
+            font-size: 12px;
+            position:relative;
+            top: 6px;
+            @media (min-width: 1024px) {
+              font-size: 30px;
             }
           }
         }

@@ -334,6 +334,24 @@ main{
 
     .visible-md-block;
     .visible-lg-block;
+
+    ul {
+      list-style: none;
+      font-size: 26px;
+      margin:0 auto;
+      padding:0;
+
+      text-align:left;
+      background-color: pink;
+
+      @media (min-width: 1024px) {
+        max-width: 200px;
+      }
+
+      @media (min-width: 1366px) {
+        max-width: 269px;
+      }
+    }
   }
 }
 footer{
